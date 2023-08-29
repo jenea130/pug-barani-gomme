@@ -1,9 +1,9 @@
-.services-intro {
-    margin-bottom: 91px;
+.assets {
+    margin-bottom: 89px;
 
     &__img {
         position: relative;
-        height: 720px;
+        height: 721px;
         z-index: 1;
 
         img {
@@ -16,16 +16,19 @@
         }
     }
 
-    &__title {
+    &__body {
         position: relative;
-        top: 320px;
-        text-align: center;
-        font-family: var(--font-2);
-        font-size: 48px;
-        font-weight: 400;
-        letter-spacing: 2.4px;
+        top: 480px;
+        left: 100px;
         color: white;
-        text-transform: uppercase;
         z-index: 2;
+    }
+
+    &__title {
+        margin-bottom: 32px;
+    }
+
+    &__text {
+        max-width: 410px;
     }
 }
