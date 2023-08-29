@@ -3,3 +3,17 @@
 @import "partials/mixins";
 @import "../libs/slick/slick/slick.scss";
 @import "partials/base";
+
+// globals
+@import "blocks/globals/main-header";
+@import "blocks/globals/btn";
+@import "blocks/globals/main-footer";
+@import "blocks/globals/footer-contacts";
+@import "blocks/globals/form";
+@import "blocks/globals/footer-bottom";
+
+@import "blocks/home/home-intro";
+@import "blocks/home/features";
+@import "blocks/home/home-banner";
+@import "blocks/home/racing";
+@import "blocks/home/agreements";

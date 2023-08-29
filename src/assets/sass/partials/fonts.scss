@@ -1,36 +1,65 @@
-//100	Тонкий (Волосяной) Thin (Hairline)
-//200	Дополнительный светлый (Сверхсветлый) Extra Light (Ultra Light)
-//300	Светлый Light
-//400	Нормальный Normal
-//500	Средний Medium
-//600	Полужирный Semi Bold (Demi Bold)
-//700	Жирный Bold
-//800	Дополнительный жирный (Сверхжирный) Extra Bold (Ultra Bold)
-//900	Черный (Густой)Black (Heavy)
-
 @font-face {
-	font-family: 'Open Sans';
-	src: url("../fonts/OpenSans-Regular.woff2") format('woff2'), url("../fonts/OpenSans-Regular.woff") format('woff');
-	font-weight: 400;
+	font-family: 'Futura PT';
+	src: url('../fonts/FuturaPT-Bold.woff2') format('woff2'),
+		url('../fonts/FuturaPT-Bold.woff') format('woff');
+	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Open Sans';
-  src: url("../fonts/OpenSans-Bold.woff2") format('woff2'), url("../fonts/OpenSans-Bold.woff") format('woff');
-  font-weight: 700;
-  font-style: normal;
+	font-family: 'Futura PT Demi';
+	src: url('../fonts/FuturaPT-Demi.woff2') format('woff2'),
+		url('../fonts/FuturaPT-Demi.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
 }
 
-//@font-face {
-//	font-family: 'Work Sans Bold';
-//	src: url("../fonts/worksans-bold.ttf") format('ttf');
-//	font-weight: normal;
-//	font-style: normal;
-//}
-//@font-face {
-//	font-family: 'Franklink Gothik Book';
-//	src: url("../fonts/franklin-gothic-book.ttf") format('ttf');
-//	font-weight: normal;
-//	font-style: normal;
-//}
+@font-face {
+	font-family: 'Futura PT';
+	src: url('../fonts/FuturaPT-Medium.woff2') format('woff2'),
+		url('../fonts/FuturaPT-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circular Std Book';
+	src: url('../fonts/CircularStd-Book.woff2') format('woff2'),
+		url('../fonts/CircularStd-Book.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circular Std';
+	src: url('../fonts/CircularStd-Medium.woff2') format('woff2'),
+		url('../fonts/CircularStd-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circular Std';
+	src: url('../fonts/CircularStd-Bold.woff2') format('woff2'),
+		url('../fonts/CircularStd-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circular Std';
+	src: url('../fonts/CircularStd-Black.woff2') format('woff2'),
+		url('../fonts/CircularStd-Black.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), local('Roboto-Regular'),
+        url('../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+

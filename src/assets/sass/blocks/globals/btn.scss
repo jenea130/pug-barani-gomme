@@ -1,0 +1,30 @@
+.btn {
+    display: inline-block;
+    padding: 13px 30px;
+    font-family: var(--font-1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+    border-radius: 50px;
+    border: 1px solid #000;
+    background: white;
+    outline: none;
+    cursor: pointer;
+    transition: all .4s;
+
+    &:hover {
+        color: white;
+        background: #000;
+    }
+
+    &--dark {
+        color: white;
+        border-color: white;
+        background: transparent;
+        &:hover {
+            color: black;
+            background: #ccc;
+        }
+    }
+}
