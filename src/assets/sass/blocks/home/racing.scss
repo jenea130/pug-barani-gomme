@@ -5,7 +5,7 @@
         display: flex;
         justify-content: space-between;
         gap: 42px;
-        padding-bottom: 85px;
+        padding-bottom: 47px;
         border-bottom: 1px solid rgba(0, 0, 0, 0.5);
     }
 
@@ -42,7 +42,7 @@
         padding: 40px 0 0 0;
 
         p:not(:last-of-type) {
-            margin-bottom: 26px;
+            margin-bottom: 24px;
         }
     }
 
@@ -52,6 +52,7 @@
 
     &__text {
         margin-bottom: 37px;
+        line-height: 1.5;
     }
 
     &__lists {

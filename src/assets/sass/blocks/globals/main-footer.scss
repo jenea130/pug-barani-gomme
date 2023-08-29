@@ -3,12 +3,11 @@
 
     &__wrap {
         display: flex;
-        // justify-content: space-between;
-        gap: 65px;
+        gap: 56px;
     }
 
     &__title {
-        margin-bottom: 42px;
+        margin-bottom: 18px;
     }
 
     &__form {
@@ -29,6 +28,9 @@
                 margin-bottom: 65px;
             }
         }
+    }
+    &__contacts .main-footer__title {
+        margin-bottom: 40px;
     }
 
 }

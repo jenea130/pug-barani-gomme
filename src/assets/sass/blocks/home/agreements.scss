@@ -1,5 +1,5 @@
 .agreements {
-    margin-bottom: 108px;
+    margin-bottom: 106px;
 
     &__wrap {
         display: flex;
@@ -17,12 +17,16 @@
     &__block {
         flex: 0 0 449px;
     }
+
     &__title {
         margin-bottom: 30px;
     }
+
     &__text {
         margin-bottom: 28px;
+        line-height: 1.5;
     }
+
     &__logos {
         display: flex;
         flex-wrap: wrap;
@@ -31,11 +35,13 @@
         // width: 49%;
         margin: 0 -20px;
     }
+
     &__logo {
         margin: 0 20px 30px;
         flex: 0 0 calc(50% - 40px);
         // flex: 1;
     }
+
     // &__logos {
     //     display: flex;
     //     flex-wrap: wrap;
@@ -48,9 +54,30 @@
     // }
 
     &__images {
+        position: relative;
+        top: -10px;
+        left: -20px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex: 1;
+    }
+    &__image {
+        text-align: center;
+        svg {
+            margin-bottom: 20px;
+        }
+    }
+
+
+    &__label {
+        text-align: center;
+        font-family: var(--font-2);
+        font-size: 24px;
+        // font-style: normal;
+        font-weight: 700;
+        color: #000;
+        // line-height: 100%;
+        text-transform: uppercase;
     }
 }
