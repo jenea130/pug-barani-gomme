@@ -2,7 +2,7 @@ export default function streetMap() {
     const coords = [44.758532218038226, 10.665754847153554];
     const addressText = 'Sede Operativa: Via Giacomo Brodolini';
 
-    let map = L.map('map').setView(coords, 8.5);
+    let map = L.map('map').setView(coords, 15.5);
 
     let myIcon = L.icon({
         iconUrl: 'assets/i/static/map-icon.png',
