@@ -18,17 +18,18 @@
 
     &__body {
         position: relative;
-        top: 480px;
-        left: 100px;
+        top: 505px;
+        left: 91px;
         color: white;
         z-index: 2;
     }
 
     &__title {
-        margin-bottom: 32px;
+        margin-bottom: 35px;
     }
 
     &__text {
         max-width: 410px;
+        line-height: 1.5;
     }
 }

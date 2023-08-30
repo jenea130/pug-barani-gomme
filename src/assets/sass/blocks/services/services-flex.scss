@@ -4,7 +4,7 @@
     &__wrap {
         display: flex;
         gap: 60px;
-        padding-bottom: 103px;
+        padding-bottom: 81px;
         border-bottom: 1px solid rgba(0, 0, 0, 0.5);
     }
 
@@ -39,7 +39,7 @@
     }
 
     &__logos {
-        padding-top: 20px;
+        padding-top: 32px;
         flex: 1;
     }
 
@@ -49,6 +49,7 @@
 
     &__items {
         display: flex;
-        gap: 30px;
+        align-items: center;
+        gap: 29px;
     }
 }
