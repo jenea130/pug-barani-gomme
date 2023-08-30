@@ -1,0 +1,20 @@
+extends template
+
+block css
+	link(rel="stylesheet" type="text/css" href="assets/libs/leaflet/leaflet.css")
+	link(rel="stylesheet" type="text/css" href="assets/css/my.css")
+
+block title
+	title Barani Gomme
+
+block content
+	include ../globals/main-header
+	include ../blocks/about/about-intro
+	include ../blocks/about/about-content
+	
+	include ../globals/main-footer
+	include ../globals/footer-bottom
+
+block scripts
+	script(src="assets/libs/leaflet/leaflet.js")
+	script(src="assets/js/dist/webpack.js")
