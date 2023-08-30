@@ -1,0 +1,49 @@
+.safety {
+
+    &__wrap {
+        position: relative;
+        top: -1px;
+        display: flex;
+        gap: 94px;
+        padding: 65px 0 77px;
+        background: #000;
+    }
+
+    &__column {
+        position: relative;
+        flex: 1;
+        padding-left: 40px;
+
+        &:not(:first-of-type)::before {
+            content: '';
+            position: absolute;
+            top: 8px;
+            left: 0;
+            width: 1px;
+            height: 97%;
+            object-fit: cover;
+            background: rgba(255, 255, 255, 0.4);
+        }
+        &:last-of-type {
+            padding-right: 30px;
+        }
+    }
+
+    &__title {
+        margin-bottom: 53px;
+        font-family: var(--font-2);
+        font-size: 30px;
+        font-weight: 700;
+        color: #FFF;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        font-family: var(--font-1);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 2;
+        color: #FFF;
+    }
+}
