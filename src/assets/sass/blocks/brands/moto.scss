@@ -1,0 +1,36 @@
+.moto {
+    margin-bottom: 94px;
+
+    &__title {
+        padding-bottom: 49px;
+        margin-bottom: 50px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    }
+
+    &__wrap {
+        display: flex;
+        gap: 176px;
+    }
+
+    &__body {
+        margin-bottom: 60px;
+        flex: 1;
+    }
+
+    &__subtitle {
+        margin-bottom: 35px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.9px;
+        text-transform: uppercase;
+    }
+
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10px 40px;
+    }
+
+}
