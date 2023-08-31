@@ -1,0 +1,40 @@
+.workshop-flex {
+    margin-bottom: 27px;
+
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 26px;
+        margin: 0 -13px;
+
+    }
+
+    &__item {
+        flex: 0 0 calc(20% - 26px);
+        margin: 0 13px;
+        padding-top: 80px;
+        min-height: 336px;
+        text-align: center;
+        background: #333;
+    }
+    &__img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 35px;
+        height: 108px;
+    }
+
+    &__label {
+        display: inline-block;
+        max-width: 201px;
+        font-family: var(--font-2);
+        font-size: 18px;
+        font-weight: 700;
+        line-height: normal;
+        color: #FFF;
+        letter-spacing: 0.9px;
+        text-transform: uppercase;
+
+    }
+}
