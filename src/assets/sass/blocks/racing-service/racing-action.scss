@@ -1,0 +1,69 @@
+.racing-action {
+    margin-bottom: 71px;
+
+    &__wrap {
+        display: flex;
+        gap: 70px;
+    }
+
+    &__column {
+        flex: 1;
+    }
+
+    &__text {
+        font-size: 18px;
+        font-weight: 400;
+        text-align: justify;
+        line-height: 2;
+
+        p {
+            margin-bottom: 12px;
+        }
+        p.first {
+            margin-bottom: 111px;
+        }
+
+        p.second {
+            margin-bottom: 177px;
+        }
+
+        svg {
+            position: relative;
+            left: 70%;
+            margin-bottom: 88px;
+        }
+
+    }
+
+    &__img.one {
+        position: relative;
+        height: 473px;
+
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__img.two {
+        position: relative;
+        height: 561px;
+
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__video {
+        margin-bottom: 149px;
+    }
+
+}
