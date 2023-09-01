@@ -1,0 +1,13 @@
+.gallery {
+    padding: 40px 0 50px;
+    margin-bottom: 93px;
+    background: #000;
+
+    &__title {
+        color: white;
+    }
+    &__slider {
+        display: flex;
+        padding: 24px 0 27px;
+    }
+}
