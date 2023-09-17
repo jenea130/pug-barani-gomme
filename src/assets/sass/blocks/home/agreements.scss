@@ -1,5 +1,8 @@
 .agreements {
 	margin-bottom: 10.6rem;
+	@media screen and (max-width: 992px) {
+		margin-bottom: 6rem;
+	}
 
 	&__wrap {
 		display: flex;
