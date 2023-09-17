@@ -1,55 +1,83 @@
 .services-flex {
-    margin-bottom: 108px;
-
-    &__wrap {
-        display: flex;
-        gap: 60px;
-        padding-bottom: 81px;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+	margin-bottom: 10.8rem;
+    @media screen and (max-width: 768px) {
+        margin-bottom: 6rem;
+    }
+    @media screen and (max-width: 576px) {
+        margin-bottom: 4rem;
     }
 
-    &__content {
-        flex: 1;
-    }
-
-    &__title {
-        margin-bottom: 32px;
-    }
-
-    &__list {
-        column-count: 2;
-        padding-left: 15px;
-
-        li {
-            position: relative;
-            margin-bottom: 20px;
-
-            &::before {
-                content: '';
-                position: absolute;
-                top: 50%;
-                transform: translateY(-50%);
-                left: -10px;
-                width: 6px;
-                height: 6px;
-                border-radius: 50%;
-                background: #000;
-            }
+	&__wrap {
+		display: flex;
+		gap: 6rem;
+		padding-bottom: 8.1rem;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+		@media screen and (max-width: 1200px) {
+			display: block;
+		}
+        @media screen and (max-width: 768px) {
+            padding-bottom: 6rem;
         }
-    }
+        @media screen and (max-width: 576px) {
+            padding-bottom: 4rem;
+        }
+	}
 
-    &__logos {
-        padding-top: 32px;
-        flex: 1;
-    }
+	&__content {
+		flex: 1;
+	}
 
-    &__text {
-        margin-bottom: 27px;
-    }
+	&__title {
+		margin-bottom: 3.2rem;
+	}
 
-    &__items {
-        display: flex;
-        align-items: center;
-        gap: 29px;
-    }
+	&__list {
+		column-count: 2;
+		padding-left: 1.5rem;
+        @media screen and (max-width: 576px) {
+            column-count: 1;
+        }
+
+		li {
+			position: relative;
+			margin-bottom: 2rem;
+
+			&::before {
+				content: "";
+				position: absolute;
+				top: 0.5rem;
+				left: -1rem;
+				width: 0.6rem;
+				height: 0.6rem;
+				border-radius: 50%;
+				background: #000;
+			}
+		}
+	}
+
+	&__logos {
+		padding-top: 3.6rem;
+		flex: 1;
+	}
+
+	&__text {
+		margin-bottom: 2.7rem;
+	}
+
+	&__items {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+        row-gap: 3rem;
+		margin: 0 -1.5rem;
+		@media screen and (max-width: 768px) {
+		}
+	}
+	&__item {
+		margin: 0 1.5rem;
+		flex: 0 0 calc(100% / 6 - 3rem);
+		@media screen and (max-width: 768px) {
+			flex: 0 0 calc(100% / 3 - 3rem);
+		}
+	}
 }
