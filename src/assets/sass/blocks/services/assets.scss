@@ -1,9 +1,11 @@
 .assets {
-    margin-bottom: 89px;
-
+    margin-bottom: 8.9rem;
+    @media screen and (max-width: 576px) {
+        margin-bottom: 6rem;
+    }
     &__img {
         position: relative;
-        height: 721px;
+        height: 72.1rem;
         z-index: 1;
 
         img {
@@ -18,18 +20,19 @@
 
     &__body {
         position: relative;
-        top: 505px;
-        left: 91px;
+        top: 70%;
+        left: 5%;
         color: white;
         z-index: 2;
     }
 
     &__title {
-        margin-bottom: 35px;
+        margin-bottom: 3.5rem;
     }
 
     &__text {
-        max-width: 410px;
+        padding-right: 3rem;
+        max-width: 41rem;
         line-height: 1.5;
     }
 }
