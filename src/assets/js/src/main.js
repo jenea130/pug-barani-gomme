@@ -1,5 +1,6 @@
 import streetMap from "./modules/streetMap";
 import videoPlay from "./modules/video/videoPlay";
+import toggleMenu from "./modules/header/toggleMenu";
 
 window.addEventListener("DOMContentLoaded", function () {
 
@@ -10,5 +11,6 @@ window.addEventListener("DOMContentLoaded", function () {
 	}
 
 	console.log("some thing for me");
-	streetMap();
+	// streetMap();
+	toggleMenu();
 });
