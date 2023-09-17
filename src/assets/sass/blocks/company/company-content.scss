@@ -1,20 +1,45 @@
 .company-content {
-    margin-bottom: 108px;
+    margin-bottom: 10.8rem;
+    @media screen and (max-width: 1200px) {
+        margin-bottom: 8rem;
+    }
+    @media screen and (max-width: 992px) {
+        margin-bottom: 7rem;
+    }
+    @media screen and (max-width: 576px) {
+        margin-bottom: 6rem;
+    }
+    
 
     &__body {
-        padding: 70px 0 123px;
+        padding: 7rem 0 12.3rem;
         border-top: 1px solid rgba(0, 0, 0, 0.5);
         border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+        @media screen and (max-width: 1200px) {
+            padding-bottom: 8rem;
+        }
+        @media screen and (max-width: 992px) {
+            padding-bottom: 6rem;
+            padding-top: 6rem;
+        }
+        @media screen and (max-width: 576px) {
+            padding-bottom: 5rem;
+            padding-top: 5rem;
+        }
     }
 
     &__list {
         column-count: 2;
+        @media screen and (max-width: 768px) {
+            column-count: 1;
+        }
 
         li {
-            font-size: 18px;
+            font-size: 1.8rem;
             font-weight: 400;
             line-height: 2;
-            letter-spacing: 0.9px;
+            letter-spacing: 0.09rem;
+            text-transform: uppercase;
         }
     }
 }
