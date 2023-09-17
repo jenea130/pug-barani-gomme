@@ -1,5 +1,8 @@
 .racing {
 	margin-bottom: 7.7rem;
+	@media screen and (max-width: 576px) {
+		margin-bottom: 5rem;
+	}
 
 	&__wrap {
 		display: flex;
