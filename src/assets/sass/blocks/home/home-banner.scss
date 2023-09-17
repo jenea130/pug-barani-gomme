@@ -1,9 +1,9 @@
 .home-banner {
-    margin-bottom: 53px;
+    margin-bottom: 5.3rem;
 
     &__img {
         position: relative;
-        height: 630px;
+        height: 63rem;
 
         img {
             position: absolute;
@@ -17,22 +17,26 @@
 
     &__content {
         position: relative;
-        top: 284px;
-        left: 78px;
-        max-width: 620px;
+        top: 28.4rem;
+        left: 7.8rem;
+        max-width: 62rem;
         text-align: center;
         color: white;
+        @media screen and (max-width: 650px) {
+            max-width: 80%;
+            left: 10%;
+        }
     }
 
     &__title {
-        margin-bottom: 17px;
+        margin-bottom: 1.7rem;
     }
 
     &__text {
-        margin-bottom: 28px;
+        margin-bottom: 2.8rem;
         color: #FFF;
         font-family: var(--font-3);
-        font-size: 16px;
+        font-size: 1.6rem;
         font-weight: 400;
         line-height: 1.5;
     }

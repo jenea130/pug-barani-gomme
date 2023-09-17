@@ -1,5 +1,11 @@
 .features {
 	margin-bottom: 9.1rem;
+    @media screen and (max-width: 992px) {
+        margin-bottom: 6rem;
+    }
+    @media screen and (max-width: 576px) {
+        margin-bottom: 4px;
+    }
 
 	&__wrap {
 		display: flex;
