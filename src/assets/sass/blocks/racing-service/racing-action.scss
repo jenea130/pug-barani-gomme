@@ -1,68 +1,92 @@
 .racing-action {
-    margin-bottom: 71px;
-
-    &__wrap {
-        display: flex;
-        gap: 70px;
+	margin-bottom: 7.1rem;
+    @media screen and (max-width: 768px) {
+        margin-bottom: 5rem;
     }
 
-    &__column {
-        flex: 1;
-    }
+	&__wrap {
+		display: flex;
+		gap: 7rem;
+		@media screen and (max-width: 1200px) {
+			display: block;
+		}
+	}
 
-    &__text {
-        font-size: 18px;
-        font-weight: 400;
-        text-align: justify;
-        line-height: 2;
+	&__column {
+		flex: 1;
+	}
 
-        p {
-            margin-bottom: 12px;
-        }
-        p.first {
-            margin-bottom: 111px;
-        }
+	&__text {
+		font-size: 1.8rem;
+		font-weight: 400;
+		text-align: justify;
+		line-height: 2;
 
-        p.second {
-            margin-bottom: 177px;
-        }
+		p {
+			margin-bottom: 1.2rem;
+		}
+		p.first {
+			margin-bottom: 11.1rem;
+			@media screen and (max-width: 1200px) {
+				margin-bottom: 5rem;
+			}
+		}
 
-        svg {
-            position: relative;
-            left: 70%;
-            margin-bottom: 88px;
-        }
+		svg {
+			position: relative;
+			margin: 17.7rem auto 8.8rem 70%;
+			@media screen and (max-width: 1500px) {
+				margin: 17.7rem auto 8.8rem 60%;
+			}
+			@media screen and (max-width: 1200px) {
+				margin: 6rem auto 4rem 70%;
+			}
+			@media screen and (max-width: 768px) {
+				margin: 4rem auto 2rem 60%;
+			}
+			@media screen and (max-width: 576px) {
+				margin: 2rem 0 1rem 0;
+			}
+		}
+	}
 
-    }
-
-    &__img.one {
-        position: relative;
-        height: 473px;
-
-        img {
-            position: absolute;
-            top: 0;
-            left: 0;
+	&__img.one {
+		position: relative;
+		height: 47.3rem;
+        @media screen and (max-width: 768px) {
             width: 100%;
-            height: 100%;
-            object-fit: cover;
         }
-    }
-    &__img.two {
-        position: relative;
-        height: 561px;
 
-        img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-    }
+		img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+	&__img.two {
+		position: relative;
+		height: 56.1rem;
 
-    &__video {
-        margin-bottom: 149px;
-    }
+		img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+
+	&__video {
+		margin-bottom: 14.9rem;
+		@media screen and (max-width: 1200px) {
+			margin-bottom: 8rem;
+		}
+		@media screen and (max-width: 992px) {
+			margin-bottom: 6rem;
+		}
+	}
 }

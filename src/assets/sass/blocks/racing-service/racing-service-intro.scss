@@ -1,5 +1,8 @@
 .racing-service-intro {
     margin-bottom: 9.3rem;
+    @media screen and (max-width: 992px) {
+        margin-bottom: 7rem;
+    }
 
     &__img {
         position: relative;
