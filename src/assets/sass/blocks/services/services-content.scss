@@ -1,26 +1,40 @@
 .services-content {
-    margin-bottom: 95px;
+    margin-bottom: 9.5rem;
 
     &__wrap {
         display: flex;
-        gap: 81px;
+        gap: 8.1rem;
+        @media screen and (max-width: 992px) {
+            gap: 5rem;
+        }
+        @media screen and (max-width: 768px) {
+            display: block;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+
+        }
     }
 
     &__column {
         flex: 1px;
-        padding-bottom: 57px;
+        padding-bottom: 5.7rem;
         border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+        @media screen and (max-width: 992px) {
+            padding-bottom: 4rem;
+        }
+        @media screen and (max-width: 768px) {
+            border-bottom: none;
+        }
     }
 
     &__title {
-        margin-bottom: 32px;
+        margin-bottom: 3.2rem;
     }
 
     &__text {
         line-height: 1.5;
 
         p {
-            margin-bottom: 10px;
+            margin-bottom: 1rem;
         }
     }
 }

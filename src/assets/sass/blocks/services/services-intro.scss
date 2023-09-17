@@ -1,5 +1,8 @@
 .services-intro {
 	margin-bottom: 9.1rem;
+    @media screen and (max-width: 992px) {
+        margin-bottom: 6rem;
+    }
 
 	&__img {
 		position: relative;
