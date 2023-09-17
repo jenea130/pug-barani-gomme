@@ -36,10 +36,19 @@
 	&__logos {
 		position: absolute;
 		display: flex;
-		left: 7.1rem;
+		flex-wrap: wrap;
+		row-gap: 3rem;
+		left: 1%;
 		bottom: 4.5rem;
-		gap: 5rem;
 		z-index: 2;
+		margin: 0 -15px;
+	}
+	&__logo {
+		margin: 0 15px;	
+		flex: 1 0 calc(100% / 4 - 30px);
+		@media screen and (max-width: 576px) {
+			flex: 1 0 calc(100% / 2 - 30px);
+		}
 	}
 
 	&__picture {
