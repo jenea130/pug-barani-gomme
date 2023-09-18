@@ -1,5 +1,14 @@
 .page-contacts {
     .main-header {
-        margin-bottom: 100px;
+        margin-bottom: 10rem;
+        @media screen and (max-width: 1200px) {
+            margin-bottom: 8rem;
+        }
+        @media screen and (max-width: 992px) {
+            margin-bottom: 6rem;
+        }
+        @media screen and (max-width: 768px) {
+            margin-bottom: 4rem;
+        }
     }
 }
